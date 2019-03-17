@@ -15,4 +15,6 @@ Javascript - Scripting language used
 
 BootstrapCDN v4.1.0 - The web framework used
 
+----------------------------------
+
 See the game here: https://marykwong.github.io/Psychic-Game/
