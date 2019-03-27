@@ -1,6 +1,5 @@
 
-alert ("Guess what letter I'm thinking of!");
-alert ("Press any key to begin :)");
+alert("Press any key to begin!");
 
 //variables
 var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
@@ -34,7 +33,7 @@ if (!/[a-z]/.test(userGuess)){
 
 //control for pressing non letter twice
 if (!/[a-z]/.test(userGuess) && guessed.indexOf(userGuess) !== -1){
-    alert ("Try Again!")
+    // alert ("Try Again!")
 
 }
 
